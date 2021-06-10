@@ -1,0 +1,2 @@
+rootProject.name='Laliga'
+include ':app'
