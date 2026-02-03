@@ -57,8 +57,3 @@ Launch the app to browse a list of football clubs. Click on any club to view det
 ## Project Status
 
 This project is completed as an educational showcase but is open for further enhancements.
-
----
-
-
-**Created with enthusiasm and precision! ⚽**
