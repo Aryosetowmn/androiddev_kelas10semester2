@@ -1,15 +1,16 @@
 # LaLiga Club Information App (Java) - Android Educational Project
 
-Jun 10, 2021 | This project was created when I was in 10th grade at vocational school as a beginner Android practice app.  
-It showcases a simple **LaLiga club information app** with a list-based UI and club details, built to practice Android fundamentals such as RecyclerView, image loading, and basic activity navigation.
+Jun 10, 2021 | Built in 10th grade at vocational school, this app was my first Android project that consumed an API.
+It displays LaLiga club information using a list and detail flow, helping me practice RecyclerView, image loading, and basic navigation.
+I picked the LaLiga API because I’m a Barcelona fan, Visca Barca ! ! ! 💙❤
 
 ---
 
 ## Preview (Screenshots)
 
-| Home / Club List | Club Detail | About / Extra |
+| Home / Club List | Club Detail 1 | Club Detail 2 |
 |---|---|---|
-| ![Home / Club List](docs/home.png) | ![Club Detail](docs/detail.png) | ![About / Extra](docs/about.png) |
+| ![Home / Club List](docs/home.png) | ![Club Detail](docs/detail1.png) | ![About / Extra](docs/detail2.png) |
 
 ---
 
