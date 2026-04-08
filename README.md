@@ -1,59 +1,81 @@
-# LaLiga Club Information App
+# LaLiga Club Information App (Java) - Android Educational Project
 
-A comprehensive Android application showcasing football clubs in the Spanish LaLiga. This project emphasizes clean user interfaces and intuitive user experience while being a demonstration of Android development practices.
-
----
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup Instructions](#setup-instructions)
-- [Usage](#usage)
-- [Project Status](#project-status)
+Jun 10, 2021 | This project was created when I was in 10th grade at vocational school as a beginner Android practice app.  
+It showcases a simple **LaLiga club information app** with a list-based UI and club details, built to practice Android fundamentals such as RecyclerView, image loading, and basic activity navigation.
 
 ---
 
-## Introduction
+## Preview (Screenshots)
 
-This Android app is a project developed to demonstrate the fundamental principles of mobile development. It allows users to view information about various football clubs, presented in a clean and engaging way. With focus on design and functionality, it serves both as an educational project and a showcase of creative skills.
+| Home / Club List | Club Detail | About / Extra |
+|---|---|---|
+| ![Home / Club List](docs/home.png) | ![Club Detail](docs/detail.png) | ![About / Extra](docs/about.png) |
 
 ---
 
 ## Features
-- List and detail views of Spanish LaLiga football clubs.
-- Interactive RecyclerView implementation.
-- Smooth navigation with detailed club information.
-- Support for rich media content display.
+
+- Display a list of football clubs (LaLiga)
+- Club detail screen (logo/image + description)
+- Image loading with Glide
+- Circular images using CircleImageView
+- RecyclerView-based UI
 
 ---
 
-## Technologies Used
-- Java
-- RecyclerView
-- Android Studio
-- Glide for Image Loading
-- Parcelable for Information Passing
+## Tech Stack
+
+- **Language:** Java  
+- **Build System:** Gradle  
+- **UI:** ConstraintLayout, RecyclerView  
+- **Libraries:**  
+  - AndroidX AppCompat  
+  - RecyclerView  
+  - Glide  
+  - CircleImageView  
+- **compileSdk / targetSdk:** 30  
+- **minSdk:** 16  
 
 ---
 
-## Setup Instructions
+## Project Structure (High Level)
 
-1. **Clone the repository**:
+- `app/` - Android application module
+- `app/src/main/java/...` - Activities, adapters, models
+- `app/src/main/res/` - Layouts, drawables, strings, themes
+- `gradle/` + `gradlew*` - Gradle wrapper files
+- `docs/` - Screenshots for README
+
+---
+
+## Getting Started
+
+### Requirements
+- Android Studio (recommended: a modern version)
+- JDK 11
+- Android SDK Platform 30 installed (compileSdk 30)
+
+### Run Locally
+1. Clone the repository:
    ```bash
    git clone https://github.com/Aryosetowmn/androiddev_kelas10semester2.git
    ```
-2. **Open the project** with Android Studio.
-3. **Build and run** the app on an emulator or a physical device.
+2. Open the project in **Android Studio**
+3. Wait for **Gradle Sync** to finish
+4. Run on:
+   - Emulator (Device Manager), or
+   - Physical Android device (USB Debugging enabled)
 
 ---
 
-## Usage
+## Notes
 
-Launch the app to browse a list of football clubs. Click on any club to view detailed information, including an overview and an image.
+This repository is intended for learning and portfolio demonstration.  
+For real-world apps, consider using an API, local database (Room), and a proper architecture (e.g., MVVM) for scalability.
 
 ---
 
-## Project Status
+## Author
 
-This project is completed as an educational showcase but is open for further enhancements.
+**Aryosetowmn**  
+Repository: `Aryosetowmn/androiddev_kelas10semester2`
